@@ -1,0 +1,110 @@
+body {
+    padding: 20px 2% 20px 2%;
+    font-size: 1.9em;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 1.6em;
+    }
+}
+
+.form-section, .form-section-middle {
+    display:grid;
+    grid-template-columns:100%;
+}
+
+@media only screen and (min-width: 992px) {
+    .form-section-middle {
+        grid-template-columns:50% 50%;
+    }
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin:0 auto;
+    width: 95%;
+}
+
+@media only screen and (min-width: 992px) {
+    .form-section-middle .form-group {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    form {
+        margin-left: 10%;
+        width: 50%;
+        min-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+    form {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+.ht:hover .tooltip {
+    display: block;
+}
+
+.tooltip {
+    display: none;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: -50%; /* moves the tooltip to the right */
+    margin-top: -140px; /* moves it down */
+    position: absolute;
+    z-index: 1000;
+    width: 200px;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.info-circle {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 1px dodgerblue;
+    cursor: default;
+    background-color:dodgerblue;
+    color: white;
+    text-align: center;
+}
+.configure-label {
+    display: inline-block;
+}
+
+.configure-label-long {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.configure-input select option {
+  background: white;
+}
+
+.button {
+     background-color:dodgerblue;
+     border: 1px solid dodgerblue;
+     text-align: center;
+     margin-left: 20%;
+ }
+
+.star {
+    color: red;
+}
+
+
